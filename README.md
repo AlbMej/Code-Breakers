@@ -2,7 +2,7 @@
 
 ## Overview 
 
-*This project is designed to be completed within 3 days by high school students*
+*This project is designed to be completed within 3 days by high school students without prior coding experience*
 
 **How is this done?** 
 Students are briefly taught about programming in Python, and then debriefed on the project.
