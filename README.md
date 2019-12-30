@@ -16,4 +16,4 @@ of a few blanks. This is meant to guide the students with the implementation of 
 The reason for this approach is to help high school students visualize the way coding can
 be used in real time applications. The way this project is structured gives the students a 
 linear direction to take in order to solve it. The problem given forces them to think 
-about the problem first, and then to find ways to implement their reasoning in Python. 
+about the problem first, and then to find ways to implement their reasoning in Python.  
