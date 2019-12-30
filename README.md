@@ -1,4 +1,4 @@
-# A fun interactive coding activiy for high school students
+# A fun interactive coding activity for high school students
 
 ## Overview 
 

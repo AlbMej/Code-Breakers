@@ -6,6 +6,8 @@
 
 ## The process
 
+In this activity, you will be solving a simpler cipher than the Enigma Machine. However, the idea behind it is related to how the early versions of the German Enigma machine was cracked.
+
 ## Your mission
 
 1. Write a constructor for the Cipher class that takes a codestring and stores both the code and its inverse in two dictionaries.
