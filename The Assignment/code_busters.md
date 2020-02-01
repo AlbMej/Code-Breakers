@@ -98,5 +98,5 @@ You will then be able to use the wordlist variable in your code.
 This approach is not considered great style, but it is easy and appropriate for this case.
 
 ## Your mission
-
-1. Finish the implementation of the class `CipherCracker`.  A `CipherCracker` object should store a ciphertext that you are trying to decode. It should separate out the preamble from the beginning of the ciphertext. Finish implementing the methods called `decode`, `quality`, `mostlikelydecode`, and `mostlikelycodeword`. The description of the desired input and output of each method is given in the skeleton code.
+1. Add support to the Cipher class for codeword substitution ciphers.
+2. Finish the implementation of the class `CipherCracker`.  A `CipherCracker` object should store a ciphertext that you are trying to decode. It should separate out the preamble from the beginning of the ciphertext. Finish implementing the methods called `decode`, `quality`, `mostlikelydecode`, and `mostlikelycodeword`. The description of the desired input and output of each method is given in the skeleton code.
