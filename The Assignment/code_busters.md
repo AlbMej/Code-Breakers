@@ -52,7 +52,7 @@ This method returns an uppercase version of the string so, for example,  `'Hello
 
 # **Instructions for ciphercracker.py**
 
-# Breaking Substitution Ciphers
+## Breaking Substitution Ciphers
 
 It is possible to break simple substitution ciphers without even using a computer. This is why, for example, such puzzles appear in newspapers. In this activity, you will write a program that automatically decodes a variant of these codes without knowing the codestring in advance 😨.
 
