@@ -33,7 +33,6 @@ class UserInterface:
             if user_input == 'q':
                 return
             elif user_input == '1':
-                print(subprocess.Popen("ls"))
                 test = subprocess.Popen(["python3","testcipher.py"], stdout=subprocess.PIPE)
                 user_input = input(t.bold("Enter 1 or 2: "))
                 continue
