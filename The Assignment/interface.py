@@ -34,10 +34,12 @@ class UserInterface:
                 return
             elif user_input == '1':
                 test = subprocess.Popen(["python3","testcipher.py"], stdout=subprocess.PIPE)
+                return_code = test.wait()
                 user_input = input(t.bold("Enter 1 or 2: "))
                 continue
             elif user_input == '2':
                 test = subprocess.Popen(["python3","testciphercracker.py"], stdout=subprocess.PIPE)
+                return_code = test.wait()
                 user_input = input(t.bold("Enter 1 or 2: "))
                 continue
             else:
