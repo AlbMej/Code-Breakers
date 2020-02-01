@@ -1,3 +1,5 @@
+[![Run on Repl.it](https://repl.it/badge/github/AlbMej/Code-Busters)](https://repl.it/github/AlbMej/Code-Busters)
+
 # A fun interactive coding activity for high school students
 
 ## Overview 
