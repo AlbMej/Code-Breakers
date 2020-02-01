@@ -2,7 +2,6 @@ from blessed import Terminal
 from ascii_art import *
 import subprocess
 
-
 class UserInterface:
     """
     A clean CLI for Code Breakers 
@@ -29,18 +28,19 @@ class UserInterface:
         print(t.bold(f'    (2) {cls.CIPHERCRACKER_MSG}'))
 
         user_input = input(t.bold("Enter 1 or 2: "))
-        # print(t.green(f'    {cls.CIPHERCRACKER_MSG}'))
-        
+
         while True:
             if user_input == 'q':
                 return
             elif user_input == '1':
+                print(subprocess.Popen("ls"))
                 test = subprocess.Popen(["python3","testcipher.py"], stdout=subprocess.PIPE)
-                # output = test.communicate()[0]
-                return
+                user_input = input(t.bold("Enter 1 or 2: "))
+                continue
             elif user_input == '2':
                 test = subprocess.Popen(["python3","testciphercracker.py"], stdout=subprocess.PIPE)
-                return
+                user_input = input(t.bold("Enter 1 or 2: "))
+                continue
             else:
                 print("Not a valid option")
                 user_input = input(t.bold("Enter 1 or 2: "))
