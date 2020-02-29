@@ -11,8 +11,9 @@ class CipherCracker:
         When we decode the message, we will omit the preamble.
         """
 
-        # Add your code here
-        pass
+        slice_index = None # Replace None
+        self.preamble = ciphertext[:slice_index]
+        self.ciphertext = ciphertext[slice_index:]
 
     def decode(self, i, j):
         """
@@ -20,8 +21,8 @@ class CipherCracker:
         Returns the resulting string.
         """
 
-        # Add your code here
-        pass
+        codeword = Cipher(None)  # Replace. Hint: read description
+        return codeword.decode(None) # Replace None. What does decode take again in the Cipher class? 
 
     def quality(self, i, j):
         """
@@ -35,8 +36,12 @@ class CipherCracker:
         a higher output than other values.
         """
 
-        # Add your code here
-        pass
+        messages = self.decode(None, None).split()
+        count = None # Replace
+        for i in None: # Replace
+            if i in None: # Replace:
+                count += None # Replace
+        return count
 
 
     def mostlikelycodeword(self):
@@ -46,7 +51,14 @@ class CipherCracker:
         """
 
         # Add your code here
-        pass
+        stoping_int = None # Replace
+        best, first_index, last_index = None, None, None # Replace all three with an integer
+        for i in range(stoping_int):
+            for j in range(None, stoping_int): # Replace None. 
+                current = self.quality(None, None)
+                if None > None # Replace both Nones
+                    best, first_index, last_index = current, i, j
+        return self.preamble[None:None]
 
     def mostlikelydecode(self):
         """
@@ -55,5 +67,6 @@ class CipherCracker:
         """
 
         # Add your code here
-        pass
+        most_likely_codeword = Cipher(None) # Replace None with a method
+        return most_likely_codeword.decode(None) # Replace None. What does decode take again in the Cipher class? 
         
